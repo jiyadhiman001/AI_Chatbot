@@ -25,7 +25,9 @@ An intelligent chatbot built with Python and Streamlit, powered by Groq's LLaMA 
 3. Add your Groq API key in `app.py`
 4. Run the app:
 ## 📸 Demo
+## 📸 Live Demo
 
+👉 [Click here to try the chatbot](https://jiya-ai-chatbot.streamlit.app/)
 > Chat with the AI assistant in real-time!
 
 ## 👩‍💻 Built By
