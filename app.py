@@ -1,7 +1,9 @@
 import streamlit as st
 from groq import Groq
-
-client = Groq(api_key="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")
+from dotenv import load_dotenv
+load_dotenv()
+import os
+client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 st.set_page_config(page_title="AI Chatbot", page_icon="🤖", layout="centered")
 
